@@ -72,6 +72,16 @@ public class SignosVitales implements Serializable {
 
 
 
+	public SignosVitales(String presion, String frecuenciaCardiaca, String frecuenciaRespiratoria, String saturacion) {
+		super();
+		this.presion = presion;
+		this.frecuenciaCardiaca = frecuenciaCardiaca;
+		this.frecuenciaRespiratoria = frecuenciaRespiratoria;
+		this.saturacion = saturacion;
+	}
+
+
+
 	public SignosVitales(String presion, String frecuenciaCardiaca, String frecuenciaRespiratoria, String saturacion,
 			CitaMedica citamedica) {
 		super();
