@@ -40,6 +40,54 @@ private static final long serialVersionUID = 1L;
 		list = signosFacade.findAll();
 		return null;
 	}
+
+	public SignosVFacade getSignosFacade() {
+		return signosFacade;
+	}
+
+	public void setSignosFacade(SignosVFacade signosFacade) {
+		this.signosFacade = signosFacade;
+	}
+
+	public List<SignosVitales> getList() {
+		return list;
+	}
+
+	public void setList(List<SignosVitales> list) {
+		this.list = list;
+	}
+
+	public String getPresion() {
+		return presion;
+	}
+
+	public void setPresion(String presion) {
+		this.presion = presion;
+	}
+
+	public String getFrecuenciaCardiaca() {
+		return frecuenciaCardiaca;
+	}
+
+	public void setFrecuenciaCardiaca(String frecuenciaCardiaca) {
+		this.frecuenciaCardiaca = frecuenciaCardiaca;
+	}
+
+	public String getFrecuenciaRespiratoria() {
+		return frecuenciaRespiratoria;
+	}
+
+	public void setFrecuenciaRespiratoria(String frecuenciaRespiratoria) {
+		this.frecuenciaRespiratoria = frecuenciaRespiratoria;
+	}
+
+	public String getSaturacion() {
+		return saturacion;
+	}
+
+	public void setSaturacion(String saturacion) {
+		this.saturacion = saturacion;
+	}
 	
 	
 }
